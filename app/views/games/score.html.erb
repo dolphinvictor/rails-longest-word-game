@@ -1,0 +1,13 @@
+
+
+<%= @final_score %>
+
+
+<h2>You guessed <%= @final_score[:guess] %></h2>
+<h2>it took you <%= @final_score[:time] %> to answer !</h2>
+<h3> Your score is <%= @final_score[:score] %></h3>
+
+
+
+
+<%= link_to "Try again sooner than later", game_path %>
